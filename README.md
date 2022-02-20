@@ -1,6 +1,6 @@
 # certstrap
 [![godoc](http://img.shields.io/badge/godoc-certstrap-blue.svg?style=flat)](https://godoc.org/github.com/square/certstrap)
-[![CI](https://github.com/square/certstrap/actions/workflows/go.yml/badge.svg)](https://github.com/square/certstrap/actions/workflows/go.yml)
+[![Docker Image CI](https://github.com/nmaiti/certstrap-multi-platform-docker/actions/workflows/main.yml/badge.svg)](https://github.com/nmaiti/certstrap-multi-platform-docker/actions/workflows/main.yml)
 [![license](http://img.shields.io/badge/license-apache_2.0-red.svg?style=flat)](https://raw.githubusercontent.com/square/certstrap/master/LICENSE)
 
 A simple certificate manager written in Go, to bootstrap your own certificate authority and public key infrastructure.  Adapted from etcd-ca.
@@ -25,7 +25,8 @@ certstrap can init multiple certificate authorities to sign certificates with.  
 
 ### Building
 
-certstrap must be built with Go 1.13+. You can build certstrap from source:
+certstrap must be built with Go 1.13+. Can build certstarp image locally as below. Or can use  [docker hub image](https://hub.docker.com/repository/docker/nbmaiti/certstrap).
+ You can build certstrap from source:
 
 ```
 $ docker build .
