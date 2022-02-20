@@ -7,6 +7,9 @@ A simple certificate manager written in Go, to bootstrap your own certificate au
 
 certstrap is a very convenient app if you don't feel like dealing with openssl, its myriad of options or config files.
 
+
+Dockerhub built images support linux/386,linux/amd64,linux/arm/v7,linux/arm/v6,linux/arm64,linux/ppc64le platforms
+
 ## Common Uses
 
 certstrap allows you to build your own certificate system:
