@@ -1,4 +1,4 @@
-# certstrap
+# certstrap v1.3+
 [![godoc](http://img.shields.io/badge/godoc-certstrap-blue.svg?style=flat)](https://godoc.org/github.com/square/certstrap)
 [![Docker Image CI](https://github.com/nmaiti/certstrap-multi-platform-docker/actions/workflows/main.yml/badge.svg)](https://github.com/nmaiti/certstrap-multi-platform-docker/actions/workflows/main.yml)
 [![license](http://img.shields.io/badge/license-apache_2.0-red.svg?style=flat)](https://raw.githubusercontent.com/square/certstrap/master/LICENSE)
